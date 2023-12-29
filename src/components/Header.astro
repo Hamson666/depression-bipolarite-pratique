@@ -4,23 +4,26 @@
   const allPages = await Astro.glob('../pages/*.md');
 ---
 
-<div class="p-36">
-  <nav>
-    <!--<a href="/">Introduction</a>
-    <a href="/definitions/">Définitions</a>
-    <a href="/diagnostic/">Diagnostic</a>
-    <a>Echelles pour le diagnostic</a>
-    <a>Traitement des dépressions</a>
-    <a>Traitement des troubles bipolaires</a>
-    <a>Troubles associés et leur traitement</a>
-    <a>Effets secondaires</a>
-    <a>Mesures de neuroprotection</a>
-    <a>Santé digestive</a>
-    <a>Santé générale</a>
-    <a>Grossesse</a>
-    <a>Entourage</a>
-    <a>Le coin des pros</a>
-    <a>Liens</a>-->
-    {allPages.map((page) => <PageLink url={page.url} title={page.frontmatter.title} />)}
-  </nav>
+<div class="container-header layout-maxed">
+  <div class="header layout-hero m-12">
+    <nav>
+      <PageLink url="/" title="Introduction" />
+      <!--<a href="/">Introduction</a>
+      <a href="/definitions/">Définitions</a>
+      <a href="/diagnostic/">Diagnostic</a>
+      <a>Echelles pour le diagnostic</a>
+      <a>Traitement des dépressions</a>
+      <a>Traitement des troubles bipolaires</a>
+      <a>Troubles associés et leur traitement</a>
+      <a>Effets secondaires</a>
+      <a>Mesures de neuroprotection</a>
+      <a>Santé digestive</a>
+      <a>Santé générale</a>
+      <a>Grossesse</a>
+      <a>Entourage</a>
+      <a>Le coin des pros</a>
+      <a>Liens</a>-->
+      {allPages.map((page) => <PageLink url={page.url} title={page.frontmatter.title} />)}
+    </nav>
+  </div>
 </div>

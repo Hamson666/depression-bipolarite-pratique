@@ -3,6 +3,10 @@
   const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-  <h1>{frontmatter.title}</h1>
+  <div class="container-page-title layout-maxed mt-36">
+    <div class="page-title layout-hero">
+      <h1>{frontmatter.title}</h1>
+    </div>
+  </div>
   <slot />
 </BaseLayout>
