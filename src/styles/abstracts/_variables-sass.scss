@@ -3,6 +3,7 @@
 // ----------------
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 // ----------------
 // Valeurs de Breakpoints
@@ -69,7 +70,7 @@ $gaps: (
 // ----------------
 
 // Familles de fonts
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-headings: 'Playfair Display', serif;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 $line-height-base: 1.5;
@@ -121,8 +122,8 @@ $black: #0F0F0F;
 
 // Variables couleurs globales
 
-$body-color: #f0f0f0;
-$body-bg: #1c1f24;
+$body-color: #cacaca;
+$body-bg: #2a2d32;
 
 $primary: #6fa939; // Couleur dominante. Elle peut s'appliquer à la fois à des surfaces ou à des contenus.
 $primary-accent: #4e920f; // Modifieur de couleur dominante (survol, bordure)

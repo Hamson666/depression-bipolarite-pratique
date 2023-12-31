@@ -10,7 +10,7 @@
 
 Les Troubles Bipolaires se caractérisent par l’alternance de dépressions et d’épisodes maniaques ou hypomaniaques. **C’est donc l’existence de manie ou d’hypomanie qui constitue le trouble bipolaire** ([_Critères DSM 5 de bipolarité_]())
 
-***Manie et hypomanie se caractérisent par la conjonction de symptômes d’hyper-fonctionnement des émotions, de la pensée et du corps :***
+**Manie et hypomanie se caractérisent par la conjonction de symptômes d’hyper-fonctionnement des émotions, de la pensée et du corps :**
 
 |**Émotions**|**Pensée**|**Corps**|
 |:---|:---|:---|

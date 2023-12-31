@@ -1,8 +1,6 @@
 @import 'knacss';
 
 body {
-  
-
   background-color: $body-bg;
   color: $body-color;
 
@@ -13,12 +11,16 @@ body {
   h5,
   h6 {
     font-family: $font-family-headings;
-    color: $body-color;
+    color: $gray-200;
   }
 
   a {
     color: #4EAAB9;
   }
+}
+
+strong {
+  color: $gray-200;
 }
 
 p, ul {
